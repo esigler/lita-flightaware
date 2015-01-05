@@ -1,0 +1,17 @@
+en:
+  lita:
+    handlers:
+      flightaware:
+        flight:
+          details: |
+                   Flight %{number}:
+                   %{origin} to %{destination}
+                   Planned departure: %{p_depart}
+                   Actual departure: %{a_depart}
+                   Planned arrival: %{p_arrival}
+                   Actual arrival: %{a_arrival}
+          not_found: 'Flight "%{number}" was not found'
+        help:
+          details:
+            syntax: flight <flight number>
+            desc: Show details for <flight number>

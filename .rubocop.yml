@@ -1,0 +1,10 @@
+Documentation:
+  Exclude:
+    - lib/lita/handlers/flightaware.rb
+
+FileName:
+  Exclude:
+    - lib/lita-flightaware.rb
+
+LineLength:
+  Max: 130
